@@ -1,54 +1,59 @@
- To-Do Dashboard App
+#  To-Do Dashboard App
 
-A modern full-stack task management application that helps users organize daily activities, track progress, and monitor productivity through an intuitive dashboard interface. Built with React, Node.js, Express, and Vite, the application provides a clean and responsive experience for managing tasks efficiently.
+> A modern full-stack task management application that helps users organize daily activities, track progress, and monitor productivity through an intuitive dashboard interface.
 
-Features
+Built with **React**, **Node.js**, **Express**, and **Vite**, the application provides a clean and responsive experience for managing tasks efficiently.
 
- Task Management
+---
 
-* Create, view, and manage tasks
-* Track task completion status
-* Organize daily activities efficiently
+##  Features
 
-Dashboard Overview
+###  Task Management
+- Create, view, and manage tasks
+- Track task completion status
+- Organize daily activities efficiently
 
-* View total tasks at a glance
-* Monitor completed and pending tasks
-* Track overall productivity metrics
+###  Dashboard Overview
+- View total tasks at a glance
+- Monitor completed and pending tasks
+- Track overall productivity metrics
 
-Progress Tracking
+###  Progress Tracking
+- Real-time completion statistics
+- Visual progress indicators
+- Recent task activity section
 
-* Real-time completion statistics
-* Visual progress indicators
-* Recent task activity section
+###  Productivity Tools
+- Calendar view for task planning
+- Analytics dashboard for performance insights
+- Responsive and user-friendly interface
 
-Productivity Tools
+###  Modern UI
+- Clean dashboard layout
+- Dark-themed design
+- Mobile and desktop friendly
 
-* Calendar view for task planning
-* Analytics dashboard for performance insights
-* Responsive and user-friendly interface
+---
 
-Modern UI
+##  How It Works
 
-* Clean dashboard layout
-* Dark-themed design
-* Mobile and desktop friendly
-
-How It Works
-
+```
 User creates a task
-↓
+        ↓
 Task is stored in the backend
-↓
+        ↓
 Dashboard updates automatically
-↓
+        ↓
 Task statistics are calculated
-↓
+        ↓
 Completion rate is displayed
-↓
+        ↓
 Recent activity is shown in the dashboard
+```
 
-Project Structure
+---
+
+##  Project Structure
 
 ```text
 todo-dashboard-app/
@@ -75,35 +80,43 @@ todo-dashboard-app/
 └── README.md
 ```
 
-Getting Started
+---
 
-1. Clone the Repository
+##  Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- npm
+- A modern web browser
+
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/jo-baby2006/todo-dashboard-app.git
 cd todo-dashboard-app
 ```
 
-2. Install Dependencies
+### 2. Install Dependencies
 
 ```bash
 npm install
 ```
 
-3. Install Frontend Dependencies
+### 3. Install Frontend Dependencies
 
 ```bash
 cd client
 npm install
 ```
 
-4. Start the Backend Server
+### 4. Start the Backend Server
 
 ```bash
 node server.js
 ```
 
-5. Start the Frontend
+### 5. Start the Frontend
 
 ```bash
 cd client
@@ -112,11 +125,13 @@ npm run dev
 
 The application will be available at:
 
-```text
+```
 http://localhost:5173
 ```
 
-Tech Stack
+---
+
+##  Tech Stack
 
 | Component               | Technology    |
 | ----------------------- | ------------- |
@@ -129,29 +144,15 @@ Tech Stack
 | Version Control         | Git & GitHub  |
 | Development Environment | VS Code       |
 
-Dashboard Modules
+---
 
-| Module    | Description                          |
-| --------- | ------------------------------------ |
-| Dashboard | Overview of all tasks and progress   |
-| Tasks     | Task creation and management         |
-| Calendar  | Schedule and task planning           |
-| Analytics | Productivity insights and statistics |
+##  Dashboard Modules
 
-Future Improvements
+| Module      | Description                          |
+| ----------- | ------------------------------------ |
+| Dashboard   | Overview of all tasks and progress   |
+| Tasks       | Task creation and management         |
+| Calendar    | Schedule and task planning           |
+| Analytics   | Productivity insights and statistics |
 
-* User Authentication
-* MongoDB Database Integration
-* Task Priorities
-* Due Date Reminders
-* Dark/Light Mode Toggle
-* Drag-and-Drop Task Management
-* Cloud Deployment (Vercel/Render)
-* Email Notifications
-
-Requirements
-
-* Node.js 18+
-* npm
-* Modern Web Browser
 
